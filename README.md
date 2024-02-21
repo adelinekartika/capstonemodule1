@@ -1,5 +1,5 @@
 # Capstone Project Module 1
-By Adeline Kartika Tiku Putri class of JCDSOL-013(2)
+By Adeline Kartika Tiku Putri, class of JCDSOL-013(2)
 
 ## Deskripsi
 Ini adalah program data nilai siswa untuk kelas 11A di SMA Kartika. Program ini dirancang untuk memudahkan pengguna dalam manajemen data nilai siswa. Tujuan utamanya adalah untuk menyediakan antarmuka yang interaktif dan mudah digunakan untuk melakukan empat fungsi utama: menampilkan, menambahkan, menghapus, dan mengubah data nilai siswa.
