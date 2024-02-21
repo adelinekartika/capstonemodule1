@@ -154,7 +154,7 @@ def tampilDataNilai(dataSiswa, dataSiswaHapus):
                 print(tabulate(sorted_list, headers="keys", tablefmt="pretty"))
             # Berdasarkan keterangan
             elif (inputSort == '7'):
-                sorted_list = sorted(listSiswa, key=lambda x: x['Keterangan'], reverse=True)
+                sorted_list = sorted(listSiswa, key=lambda x: x['Keterangan'])
                 print(tabulate(sorted_list, headers="keys", tablefmt="pretty"))
             else:
                 print(Fore.RED + "Input anda tidak valid! Masukkan angka antara 1 sampai 7!")
@@ -171,7 +171,7 @@ def tampilDataNilai(dataSiswa, dataSiswaHapus):
 
 # Menambahkan sebuah data nilai siswa
 def tambahDataNilai(dataSiswa):
-    global jumlahSiswa
+    global jumlahSiswa # Untuk pembuatan NIS
 
     while(True):
         # print menu tambah data dan menerima input pilihan menambahkan data
@@ -490,7 +490,7 @@ Pilih sorting berdasarkan kolom:
 '''
 
 # Variabel untuk menyimpan total jumlah siswa baik yang sudah terdaftar maupun dihapus
-jumlahSiswa = len(listSiswa)
+jumlahSiswa = len(listSiswa) # Untuk pembuatan NIS
 
 # Main program
 while(True):
